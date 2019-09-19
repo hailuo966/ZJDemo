@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取传感器" />
+
+        <TextView
+            android:id="@+id/v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30px" />
+
+        <TextView
+            android:id="@+id/vx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/vy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/vz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/magneticx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/magneticy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/magneticz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/accelerometerx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/accelerometery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/accelerometerz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50px" />
+
+    </LinearLayout>
+
+
+</ScrollView>
